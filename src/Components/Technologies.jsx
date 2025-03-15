@@ -13,16 +13,16 @@ export default function Technologies() {
 
     return (
         <>
-            <section className="container px-32 py-16 bg-white">
-                <h1 className="flex justify-center items-center text-[#20236b] font-bold text-4xl mt-4">
+            <section className="container md:px-32 px-4 py-16 bg-white">
+                <h1 className="flex justify-center items-center text-[#20236b] font-bold text-4xl mt-4 max-md:text-center">
                     Technologies we work with
                 </h1>
 
-                <div className="grid grid-cols-3 mt-10 items-center gap-y-6 ">
+                <div className="grid md:grid-cols-3 grid-cols-2 mt-10 items-center gap-y-6 ">
                     {tech.map((tech) => (
 
                         <div key={tech.id} className="justify-self-center tech-card">
-                            <img src={tech.imgpath} alt={tech.title} className="grayscale-100 transition duration-300 ease-in-out hover:grayscale-0 w-32 tech-img" />
+                            <img src={tech.imgpath} alt={tech.title} className="md:grayscale-100 transition duration-300 ease-in-out hover:grayscale-0 w-32 tech-img" />
                             <p className="text-center text-lg mt-2">{tech.title}</p>
                         </div>
 

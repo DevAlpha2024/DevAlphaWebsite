@@ -22,16 +22,16 @@ export default function WhyChooseUs() {
 
   return (
    <>
-   <section className='container px-32 py-16 bg-white'>
+   <section className='container md:px-32 py-16 bg-white'>
     <h1 className="flex justify-center items-center text-[#20236b] font-bold text-4xl">
     Why Choose Us
     </h1>
 
-    <div className="mt-6 grid grid-cols-3 items-center">
-        <div className="">
+    <div className="mt-6 grid md:grid-cols-3 grid-cols-1 items-center">
+        <div className="max-md:justify-self-center">
             <img src="/Images/phone.png" alt="" className="" />
         </div>
-        <div className="grid grid-cols-2 gap-6 p-6 col-span-2">
+        <div className="grid md:grid-cols-2 gap-6 p-6 col-span-2">
       {services.map((service) => (
         <div key={service.id} className="flex items-start space-x-4">
           <FontAwesomeIcon icon={service.icon} className="text-blue-500 text-3xl" />

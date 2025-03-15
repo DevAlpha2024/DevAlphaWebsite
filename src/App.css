@@ -44,7 +44,7 @@ body{
 
 
 
-section{
+section {
   animation: Scroll linear;
   animation-timeline: view();
       animation-range: entry 0% cover 40%;
@@ -53,8 +53,7 @@ section{
 @keyframes Scroll{
   from {
       opacity: 0;
-      /* clip-path: inset(100% 100% 0 0); */
-      margin-right: 50%   ;
+      margin-bottom: 20%   ;
       scale: 0%;
     }
 
