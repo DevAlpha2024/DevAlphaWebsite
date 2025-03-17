@@ -47,7 +47,7 @@ export default function Team() {
                         <SwiperSlide key={card.id} className="flex justify-center">
                             <div className="relative bg-[#00293b] rounded-2xl shadow-xl border border-gray-700 transform transition-all duration-300 hover:scale-105">
                                 <div className="relative">
-                                    <img src={card.image} alt={card.title} className="rounded-2xl h-96 w-full object-cover" />
+                                    <img src={card.image} alt={card.title || `DevAlpha Members`} className="rounded-2xl h-96 w-full object-cover" />
                                     <div className="w-full absolute flex justify-center items-center -mt-16">
                                         <div className="flex justify-center items-center gap-4">
                                             <a href={card.fb} target='_blank' rel="noopener noreferrer">

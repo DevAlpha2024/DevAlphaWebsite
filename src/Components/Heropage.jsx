@@ -20,7 +20,7 @@ export default function Heropage() {
                         </div>
                     </div>
                     <div className="">
-                        <img src="/Images/hero-img.png" alt="" className="w-full " />
+                        <img src="/Images/hero-img.png" alt="DevAlpha-heropage" className="w-full " />
                     </div>
                 </div>
             </section>

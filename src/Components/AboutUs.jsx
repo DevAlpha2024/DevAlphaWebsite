@@ -15,7 +15,7 @@ export default function AboutUs() {
                         
                     </div>
                     <div className="">
-                        <img src="/Images/hero-img.png" alt="" className="" />
+                        <img src="/Images/hero-img.png" alt="DevAlpha-aboutus" className="" />
                     </div>
                 </div>
 

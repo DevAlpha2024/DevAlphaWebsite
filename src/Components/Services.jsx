@@ -22,7 +22,7 @@ export default function Services() {
                 </h1>
 
                 <div className="grid md:grid-cols-3 grid-cols-1 items-center mt-10">
-                    <div className=""><img src="/Images/Services.png" alt="Services" className="" /></div>
+                    <div className=""><img src="/Images/Services.png" alt="DevAlpha-Services" className="" /></div>
                     <div className="col-span-2">
                         <div className="grid md:grid-cols-2 gap-6 p-6 col-span-2">
                             {services.map((service) => (

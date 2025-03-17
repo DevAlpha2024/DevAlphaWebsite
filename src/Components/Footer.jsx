@@ -20,9 +20,9 @@ export default function Footer() {
                         </div>
 
 
-                        <a href="https://codequell.com/" >
+                        <a href="" >
                             <div className="flex justify-center items-center">
-                                <img src="/Images/logo.png" alt="" className="w-32" />
+                                <img src="/Images/logo.png" alt="DevAlpha" className="w-32" />
                             </div>
                         </a>
                     </div>

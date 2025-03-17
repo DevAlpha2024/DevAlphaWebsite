@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center py-4 px-6 md:px-10">
         
         <div className="flex items-center gap-2">
-          <img src="/Images/logo.png" alt="Dev Alpha" className="w-12" />
+          <img src="/Images/logo.png" alt="DevAlpha" className="w-12" />
           <p className="text-2xl font-bold text-[#012970]">Dev Alpha</p>
         </div>
         
