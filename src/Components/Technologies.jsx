@@ -5,9 +5,10 @@ export default function Technologies() {
     const tech = [
         { id: 1, imgpath: '/Images/andriod.png', title: "Android" },
         { id: 2, imgpath: '/Images/Kotlin_Icon.png', title: "Kotlin" },
-        { id: 3, imgpath: '/Images/image.png', title: "Jetpack" },
+        { id: 3, imgpath: '/Images/Jutpack.png', title: "Jetpack" },
         { id: 4, imgpath: '/Images/Android_Studio.png', title: "Android Studio" },
         { id: 5, imgpath: '/Images/Firebase-logo-02.png', title: "Firebase" },
+        { id: 6, imgpath: '/Images/Figma.png', title:'Figma'}
 
     ];
 
