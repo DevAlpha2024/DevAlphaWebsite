@@ -28,6 +28,7 @@ export default function Navbar() {
               <Link to={item} smooth={true} duration={500} className="cursor-pointer" onClick={() => setIsOpen(false)}>
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </Link>
+
             </li>
           ))}
         </ul>
